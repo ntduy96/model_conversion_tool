@@ -1,6 +1,7 @@
 {
   "name": "model_conversion_tool",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "private": true,
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -8,12 +9,24 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.1.1",
+    "@fortawesome/free-solid-svg-icons": "^6.1.1",
+    "@fortawesome/vue-fontawesome": "^2.0.6",
+    "axios": "^0.26.1",
+    "bootstrap-vue": "^2.22.0",
+    "dotenv": "^16.0.0",
+    "jquery": "^3.6.0",
     "pinia": "^2.0.13",
+    "stats.js": "^0.17.0",
+    "three": "^0.139.2",
     "vue": "^3.2.33",
     "vue-router": "^4.0.14"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.1.0",
+    "@types/node": "^17.0.26",
+    "@types/stats.js": "^0.17.0",
+    "@types/three": "^0.139.0",
     "@vitejs/plugin-vue": "^2.3.1",
     "@vue/eslint-config-prettier": "^7.0.0",
     "eslint": "^8.5.0",
